@@ -1,0 +1,21 @@
+{
+  "name": "lab-experiments",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "01": "tsx src/01-load-balancing.ts",
+    "02": "tsx src/02-caching.ts",
+    "03": "tsx src/03-read-replicas.ts",
+    "04": "tsx src/04-sharding.ts",
+    "05": "tsx src/05-queues.ts",
+    "06": "tsx src/06-api-gateway.ts",
+    "07": "tsx src/07-cdn.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
