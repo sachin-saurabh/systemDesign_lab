@@ -6,6 +6,8 @@ Each section: what it is, why it exists, what it costs, and questions to test yo
 
 **What:** Spread requests across several identical servers so no single one is the bottleneck, and so one dying doesn't take you down.
 
+Technically, it can be a server with a specific software and configuration that works as an intermediatry between client and application service replicas/clonesand devides the request load based on defined algorithms 
+
 **Algorithms**
 - *Round robin:* rotate through servers. Simple, fair when requests cost about the same.
 - *Least connections:* send to the server with the fewest in-flight requests. Better when costs vary.
